@@ -24,7 +24,7 @@ services:
     container_name: minha_api_node
     restart: on-failure
     ports:
-      - "8014:8014"
+      - "8015:8015"
     environment:
       DB_HOST: db
       DB_USER: admin
